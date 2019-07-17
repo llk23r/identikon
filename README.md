@@ -1,6 +1,8 @@
 # Identikon
 
-**Utility: Creates an Identicon for a given name.**
+**Utility: Creates an Identicon for a given name. Identicons are images
+generated for a given name. Like the default avatar assigned by Github when you
+sign up.**
 
 **To Run:**
 
@@ -8,9 +10,19 @@
 iex> Identikon.main("llk23r")
 ```
 
-It'll generate an image as:
+The above code will generate an image as:
 
 ![alt identicon](llk23r.png)
+
+
+```
+iex> Identikon.main("bitcoin")
+```
+
+The above code will generate an image as:
+
+![alt identicon](bitcoin.png)
+
 
 
 ## Installation
