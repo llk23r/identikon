@@ -1,6 +1,17 @@
 # Identikon
 
-**TODO: Add description**
+**Utility: Creates an Identicon for a given name.**
+
+**To Run:**
+
+```
+iex> Identikon.main("llk23r")
+```
+
+It'll generate an image as:
+
+![alt identicon](llk23r.png)
+
 
 ## Installation
 
